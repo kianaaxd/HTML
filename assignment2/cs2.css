@@ -229,19 +229,6 @@ ul {
 }
 
 
-@media screen and (max-width: 960px) {
-    aside {
-        display: none;
-    }
-
-    body {
-        margin: auto;
-    }
-
-    main .ad {
-        display: flex;
-    }
-}
 
 nav {
     display: flex;
@@ -284,5 +271,92 @@ nav {
 
 .nav-item-6 {
     min-height: 50px;
+}
+
+
+@media screen and (max-width: 960px) {
+    nav {
+        display: none;
+        color: #000000;
+
+    }
+
+    body {
+        margin: auto;
+    }
+
+ 
+}
+
+
+
+.p1 {
+    display: grid;
+    grid-template-areas: "gameplay gamemodes"   ;
+}
+
+#Gameplay {
+    grid-area: gameplay;
+    margin-right: 1rem;
+}
+
+#GameModes {
+    grid-area: gamemodes;
+}
+
+#mapa {
+    text-align: center;
+}
+
+.p2 {
+    display: grid;
+    grid-template-areas: "mirage nuke";
+}
+
+#mirage {
+    grid-area: mirage;
+    margin-right: 1rem;
+}
+
+#nuke {
+    grid-area: nuke;
+}
+
+.p3 {
+    display: grid;
+    grid-template-areas: "ovp vtg";
+}
+
+#ovp {
+    grid-area: ovp;
+    margin-right: 1rem;
+}
+
+#vtg {
+    grid-area: vtg;
+}
+
+.p4 {
+    display: grid;
+    grid-template-areas: "act ifn";
+}
+
+#act {
+    grid-area: act;
+    margin-right: 1rem;
+}
+
+#ifn {
+    grid-area: ifn;
+}
+
+.p5 {
+    display: grid;
+    grid-template-areas: "anb .";
+}
+/* gawen nalang tong column count */
+#anb {
+    grid-area: anb;
+    margin-right: 1rem;
 }
 
