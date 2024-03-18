@@ -164,6 +164,9 @@ footer {
 
 
 /* LANCE CSS */
+
+
+
 h1 {
     text-align: center;
     color: #f1b86d
@@ -216,7 +219,70 @@ ul {
     height: 10vh;
 }
 
+#overview {
+    display: flex;
+}
+
 #tournaments {
     text-align: center;
     color: #e9921f;
 }
+
+
+@media screen and (max-width: 960px) {
+    aside {
+        display: none;
+    }
+
+    body {
+        margin: auto;
+    }
+
+    main .ad {
+        display: flex;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-item:nth-child(1) {
+    background-color: rgba(82, 82, 82, 0.65);
+}
+
+
+.nav-item {
+    width: 100px;
+    margin: 7px;
+    border: 2px solid color black;
+    text-align: center;
+}
+
+.nav-item-1 {
+    min-height: 50px;
+}
+
+.nav-item-2 {
+    min-height: 50px;
+}
+
+.nav-item-3 {
+    min-height: 50px;
+}
+
+.nav-item-4 {
+    min-height: 50px;
+}
+
+.nav-item-5 {
+    min-height: 50px;
+}
+
+.nav-item-6 {
+    min-height: 50px;
+}
+
