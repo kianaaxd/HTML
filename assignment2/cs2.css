@@ -285,8 +285,13 @@ nav {
         margin: auto;
     }
 
- 
+    .tournas {
+        column-count: 1;
+        font-size: 6px;
+    }
 }
+ 
+
 
 
 
@@ -302,10 +307,6 @@ nav {
 
 #GameModes {
     grid-area: gamemodes;
-}
-
-#mapa {
-    text-align: center;
 }
 
 .p2 {
@@ -358,5 +359,6 @@ nav {
 #anb {
     grid-area: anb;
     margin-right: 1rem;
+    column-count: 2;
 }
 
